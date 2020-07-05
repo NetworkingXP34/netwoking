@@ -9,17 +9,18 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/02cb485d-368f-46d7-b372-32fd5b9053dd/deploy-status)](https://app.netlify.com/sites/networkingxp34/deploys)
 
 # Motivação
-Desafio lançado no programa Gama Experince #34 com objetivo de criar uma
-landing page para captar no mínimo 1000 leads.
+Desafio lançado no programa Gama Experince #34 Show me the networking com objetivo de criar uma
+live para marca Her Mind.
 
 ## Integrantes 
 A equipe de Hackers (Desenvolvedores Front-ens) composta por:
 
+Bruno 
+
+Catarina
+
 Luiz Santos (Maguila)
 
-Elaine Estainer
-
-Rogério Panizza
 
 ## Descrição
-Landing Page criada com HTML e CSS utilizando framework BOOTSTRAP 
+Landing Page criada para empresa Her Mind
