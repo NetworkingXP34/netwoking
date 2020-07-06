@@ -1,29 +1,26 @@
-var target_date = new Date("july 09, 2020").getTime();
-var dias, horas, minutos, segundos;
-var regressiva = document.getElementById("regressiva");
-
-setInterval(
-    function () {
-
-        var current_date = new Date().getTime();
-        var segundos_f = (target_date - current_date) / 1000;
-
-        dias = parseInt(segundos_f / 86400);
-        segundos_f = segundos_f % 86400;
-        
-        horas = parseInt(segundos_f / 3600);
-        segundos_f = segundos_f % 3600;
-        
-        minutos = parseInt(segundos_f / 60);
-        segundos = parseInt(segundos_f % 60);
-
-        document.getElementById('dia').innerHTML = dias;
-        document.getElementById('hora').innerHTML = horas;
-        document.getElementById('minuto').innerHTML = minutos;
-        document.getElementById('segundo').innerHTML = segundos;
-    },
-    1000);
-
-    /**if (dia == 0 && hora == 0 && minuto == 0 && segundo == 0) {
-Exibe a mensagem
-} */
+var YY = 2020;
+var MM = 07;
+var DD = 09;
+var HH = 18; 
+var MI = 30;
+var SS = 00;
+function atualizaContador() { 
+    var hoje = new Date(); 
+    var futuro = new Date(YY,MM-1,DD,HH,MI,SS);
+    var ss = parseInt((futuro - hoje) / 1000);
+    var mm = parseInt(ss / 60);
+    var hh = parseInt(mm / 60);
+    var dd = parseInt(hh / 24); 
+    ss = ss - (mm * 60); mm = mm - (hh * 60); hh = hh - (dd * 24); 
+    var faltam = ''; 
+    faltam += (dd && dd > 1) ? dd+' dias, ' : (dd==1 ? '1 dia, ' : ''); 
+    faltam += (toString(hh).length) ? hh+' horas, ' : ''; 
+    faltam += (toString(mm).length) ? mm+' min e ' : ''; 
+    faltam += ss+' seg'; if (dd+hh+mm+ss > 0) { 
+        document.getElementById('contador').innerHTML = faltam; 
+        setTimeout(atualizaContador,1000); 
+    } else { 
+        document.getElementById('contador').innerHTML = ' <div style="padding-top:2%">Iniciando preparativos para Live da !!!!</div>';
+        setTimeout(atualizaContador,1000);
+    }
+}
