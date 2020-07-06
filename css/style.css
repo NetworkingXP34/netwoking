@@ -54,10 +54,9 @@ header{
     opacity: 0.3;
 }
 
-.rectangle {
+.fundo{
     position: absolute;
-    width: 1366px;
-    height: 768px;
+    width: 100%;
     left: 0px;
     top: 0px;
     background: rgba(254, 250, 220, 0.75);
