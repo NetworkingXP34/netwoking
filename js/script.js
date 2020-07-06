@@ -1,8 +1,8 @@
 var YY = 2020;
 var MM = 07;
-var DD = 06;
-var HH = 14; 
-var MI = 45;
+var DD = 09;
+var HH = 18; 
+var MI = 30;
 var SS = 00;
 function atualizaContador() { 
     var hoje = new Date(); 
