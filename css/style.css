@@ -50,21 +50,21 @@ header{
     max-height:100px;   
 }
 
-.fundo{
-    background-image: url(../img/fundo.png);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: #FEFADC;
-    position: relative;
-    filter:opacity(alpha=60);
-    -moz-opacity:0.3;
+.imagem{
     opacity: 0.3;
 }
+
+.fundo{
+    position: absolute;
+    width: auto;
+    left: 0px;
+    top: 0px;
+    background: rgba(254, 250, 220, 0.75);
+}
+
 .contagem{
-    width:300px;
-    height:70px;
+    width:auto;
     background-color: #ffffff;
-    align-items: center;
+    text-align: center;
 }
     
