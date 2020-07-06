@@ -4,6 +4,7 @@
 [![code-size](https://img.shields.io/github/languages/code-size/NetworkingXP34/netwoking)](https://img.shields.io/github/NetworkingXP34/netwoking)
 [![commit activity](https://img.shields.io/github/commit-activity/w/NetworkingXP34/netwoking)](https://github.com/NetworkingXP34/netwoking/commits)
 [![last commit](https://img.shields.io/github/last-commit/NetworkingXP34/netwoking)](https://github.com/NetworkingXP34/netwoking/commits)
+[![lincença](https://img.shields.io/github/license/NetworkingXP34/netwoking)](https://github.com/NetworkingXP34/netwoking/blob/master/LICENSE)
 [![pull request open](https://img.shields.io/github/issues-pr-raw/NetworkingXP34/netwoking)](https://github.com/NetworkingXP34/netwoking/issues?q=is%3Aopen)
 [![twwiter follow](https://img.shields.io/twitter/follow/luizcs?style=social)](https://twitter.com/luizcs)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/02cb485d-368f-46d7-b372-32fd5b9053dd/deploy-status)](https://app.netlify.com/sites/networkingxp34/deploys)
@@ -17,7 +18,7 @@ A equipe de Hackers (Desenvolvedores Front-ens) composta por:
 
 Bruno 
 
-Catarina
+Catharina
 
 Luiz Santos (Maguila)
 

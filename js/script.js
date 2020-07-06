@@ -23,3 +23,7 @@ setInterval(
         document.getElementById('segundo').innerHTML = segundos;
     },
     1000);
+
+    /**if (dia == 0 && hora == 0 && minuto == 0 && segundo == 0) {
+Exibe a mensagem
+} */
