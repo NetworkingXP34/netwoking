@@ -28,6 +28,13 @@ header{
 
 .titulo{
     padding-bottom: 2rem;
+    position: relative;
+    z-index: 1000;
+}
+
+.titulo h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .centralizar{
@@ -40,6 +47,8 @@ header{
     flex-direction: row;
     width: 50vw;
     margin: 0 auto;
+    position: relative;
+    z-index: 1000;
 }
 
 .descricao{
@@ -51,6 +60,8 @@ header{
     font-family: 'Poppins', sans-serif;
     text-align: center;
     font-size: 1.5em;
+    position: relative;
+    z-index: 1000;
 }
 
 .negrito{
@@ -60,24 +71,29 @@ header{
 .icone{
     border-radius: 15px 15px;
     max-width:150px;
-    max-height:100px;   
+    max-height:100px; 
+    position:relative;
+    z-index: 1000;  
 }
 
-.imagem{
+/* .imagem{
     opacity: 0.3;
-}
+} */
 
 .fundo{
     position: absolute;
     width: 100%;
     left: 0px;
     top: 0px;
-    background: rgba(254, 250, 220, 0.75);
+    /* background: rgba(254, 250, 220, 0.75); */
+    position: absolute;
+    z-index: 0;
 }
 
 .contagem{
     width:auto;
     background-color: #ffffff;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
     

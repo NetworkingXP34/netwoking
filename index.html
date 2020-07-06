@@ -33,68 +33,70 @@
 </head>
 
 <body onload="atualizaContador()">
-    <div>
-        <img class="fundo imagem" src="./img/fundo.png" alt="Imagem de Fundo Moça pulando de braços abertos">
-    </div>
-    <header>
-        <a href="https://www.hermind.com.br" title="Site Her Mind">
-            <img class="icone" src="./img/hermind.jpeg" alt="Her Mind">
-        </a>
-    </header>
-    <div class="container">
-        <div class="titulo centralizar">
-            <h1>Live sobre auto cuidado e saúde mental da mulher durante o isolamento</h1>
+        <div>
+            <img class="fundo imagem" src="./img/fundo-transparente.png"
+                alt="Imagem de Fundo Moça pulando de braços abertos">
         </div>
-        <!--Fim titulo-->
+        <header>
+            <a href="https://www.hermind.com.br" title="Site Her Mind">
+                <img class="icone" src="./img/hermind.jpeg" alt="Her Mind">
+            </a>
+        </header>
+        <div class="container">
+            <div class="titulo centralizar">
+                <h1>Live sobre auto cuidado e saúde mental da mulher durante o isolamento</h1>
+            </div>
+            <!--Fim titulo-->
 
-        <div class="formulario">
-            <form>
-                <div class="form-row">
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="First name">
+            <div class="formulario">
+                <form>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Last name">
+                        </div>
                     </div>
-                    <div class="col">
-                        <input type="text" class="form-control" placeholder="Last name">
-                    </div>
-                </div>
-                <button type="button" class="btn btn-primary btn-lg">Large button</button>
-            </form>
+                    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                </form>
+
+            </div>
+            <!--Fim do formulario-->
+            <div class="descricao">
+                <p>Quais hábitos de autocuidado você está adotando durante esta quarentena?</p>
+                <p>Neste evento, iremos dialogar com especialistas sobre a importância da saúde mental,
+                    como criar e manter bons hábitos para enfrentar essa fase de pandemia.</p>
+                <p>Evento totalmente <span class="negrito">ONLINE</span> e <span class="negrito">GRATUITO</span> .</p>
+                <p>Queremos ajudar mulheres a terem um olhar sobre a saúde emocional durante
+                    esse momento de distanciamento e trazer ensinamentos práticos para o dia a dia.</p>
+                <p>As nossas especialistas vão abordar também como nós podemos aumentar a nossa
+                    qualidade de vida, dos nossos filhos e família.</p>
+                <p>Inscreva-se no formulário acima para não perder essa conversa!</p>
+            </div>
+            <!--Fim descricao-->
+
+        
+
+            <div class="contagem">
+                <h3>Contagem regressiva para Live: </h3>
+                <span id="contador"></span>
+            </div>
+            <!--Fim contagem-->
 
         </div>
-        <!--Fim do formulario-->
-        <div class="descricao">
-            <p>Quais hábitos de autocuidado você está adotando durante esta quarentena?</p>
-            <p>Neste evento, iremos dialogar com especialistas sobre a importância da saúde mental,
-                como criar e manter bons hábitos para enfrentar essa fase de pandemia.</p>
-            <p>Evento totalmente <span class="negrito">ONLINE</span> e <span class="negrito">GRATUITO</span> .</p>
-            <p>Queremos ajudar mulheres a terem um olhar sobre a saúde emocional durante
-                esse momento de distanciamento e trazer ensinamentos práticos para o dia a dia.</p>
-            <p>As nossas especialistas vão abordar também como nós podemos aumentar a nossa
-                qualidade de vida, dos nossos filhos e família.</p>
-            <p>Inscreva-se no formulário acima para não perder essa conversa!</p>
+        <!--Fim container-->
 
-        </div>
-        <!--Fim descricao-->
-
-        <div class="contagem">
-            <h3>Contagem regressiva para Live: </h3>
-            <span id="contador"></span>
-        </div>
-        <!--Fim contagem-->
-
-    </div>
-    <!--Fim container-->
-
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
-            h._hjSettings = { hjid: 1887726, hjsv: 6 };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script'); r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+        <script>
+            (function (h, o, t, j, a, r) {
+                h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+                h._hjSettings = { hjid: 1887726, hjsv: 6 };
+                a = o.getElementsByTagName('head')[0];
+                r = o.createElement('script'); r.async = 1;
+                r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+                a.appendChild(r);
+            })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+        </script>
 </body>
 
 </html>
