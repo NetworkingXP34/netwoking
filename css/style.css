@@ -65,11 +65,15 @@ header{
     opacity: 0.3;
 }
 .contagem{   
-    border: 2px red solid;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.contagem h3{
+    display: flexbox;
+    padding: 2%;
 }
     
 .numero{
