@@ -10,8 +10,11 @@ body{
     font-size: 14pt;
     line-height: 1.5;
     color:#000000; 
-    background-color: #FCF8DD;  
+    background-color: #FCF8DD;
+    background-image: url(../img/fundo.png);
+    background-repeat: no-repeat;
 }
+
 
 header{
     margin-left: 3%;
@@ -61,10 +64,11 @@ header{
     -moz-opacity:0.3;
     opacity: 0.3;
 }
-.contagem{
-    width:300px;
-    height:70px;
-    background-color: #ffffff;
+.contagem{   
+    border: 2px red solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
 }
     
