@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,12 @@
     <meta name="description" content="Somos um portal de conteúdo feito por e para mulheres que querem falar 
     sobre saúde mental. Aqui nós nos importamos com temas como autocuidado, autoestima, empoderamento e sororidade.">
     <!--Facebook Open Graph-->
-    <meta property="og:title" content="Autocuidado e Saúde Mental da Mulher durante isolamento"/>
-    <meta property="og:type" content="web"/>
+    <meta property="og:title" content="Autocuidado e Saúde Mental da Mulher durante isolamento" />
+    <meta property="og:type" content="web" />
     <meta property="og:description" content="Somos um portal de conteúdo feito por e para mulheres que querem falar 
-    sobre saúde mental. Aqui nós nos importamos com temas como autocuidado, autoestima, empoderamento e sororidade."/>
-    <meta property="og:image"content="https://www.hermind.com.br/img/hermind.jpeg"/>
-    <meta property="og:url" content=" https://www.hermind.com.br"/>
+    sobre saúde mental. Aqui nós nos importamos com temas como autocuidado, autoestima, empoderamento e sororidade." />
+    <meta property="og:image" content="https://www.hermind.com.br/img/hermind.jpeg" />
+    <meta property="og:url" content=" https://www.hermind.com.br" />
     <!--Fim do Facebook Open Graph-->
 
     <!--Twitter Cards-->
@@ -21,7 +22,7 @@
     <meta name="twitter:title" content="Autocuidado e Saúde Mental da Mulher durante isolamento">
     <meta name="twitter:description" content="Somos um portal de conteúdo feito por e para mulheres que querem falar 
     sobre saúde mental. Aqui nós nos importamos com temas como autocuidado, autoestima, empoderamento e sororidade.">
-    <meta name="twitter:image"content="https://www.hermind.com.br/img/hermind.jpeg">
+    <meta name="twitter:image" content="https://www.hermind.com.br/img/hermind.jpeg">
     <!--Fim Twitter Cards-->
     <!-- Hotjar Tracking Code for http://www.hermind.com.br/ -->
 
@@ -30,6 +31,7 @@
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
     <title>Her Mind</title>
 </head>
+
 <body onload="atualizaContador()">
     <div>
         <img class="fundo imagem" src="./img/fundo.png" alt="Imagem de Fundo Moça pulando de braços abertos">
@@ -42,43 +44,57 @@
     <div class="container">
         <div class="titulo centralizar">
             <h1>Live sobre auto cuidado e saúde mental da mulher durante o isolamento</h1>
-        </div><!--Fim titulo-->
-    
+        </div>
+        <!--Fim titulo-->
+
         <div class="formulario">
-            <form action="">
-                
+            <form>
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg">Large button</button>
             </form>
-        </div><!--Fim do formulario-->
+
+        </div>
+        <!--Fim do formulario-->
         <div class="descricao">
             <p>Quais hábitos de autocuidado você está adotando durante esta quarentena?</p>
             <p>Neste evento, iremos dialogar com especialistas sobre a importância da saúde mental,
-               como criar e manter bons hábitos para enfrentar essa fase de pandemia.</p>
+                como criar e manter bons hábitos para enfrentar essa fase de pandemia.</p>
             <p>Evento totalmente <span class="negrito">ONLINE</span> e <span class="negrito">GRATUITO</span> .</p>
             <p>Queremos ajudar mulheres a terem um olhar sobre a saúde emocional durante
-               esse momento de distanciamento e trazer ensinamentos práticos para o dia a dia.</p>
-            <p>As nossas especialistas vão abordar também como nós podemos aumentar a nossa 
-               qualidade de vida, dos nossos filhos e família.</p>
+                esse momento de distanciamento e trazer ensinamentos práticos para o dia a dia.</p>
+            <p>As nossas especialistas vão abordar também como nós podemos aumentar a nossa
+                qualidade de vida, dos nossos filhos e família.</p>
             <p>Inscreva-se no formulário acima para não perder essa conversa!</p>
-    
-        </div><!--Fim descricao-->
-    
+
+        </div>
+        <!--Fim descricao-->
+
         <div class="contagem">
             <h3>Contagem regressiva para Live: </h3>
             <span id="contador"></span>
-        </div><!--Fim contagem-->
-   
-    </div><!--Fim container-->
-    
-   <script>
-        (function(h,o,t,j,a,r){
-            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-            h._hjSettings={hjid:1887726,hjsv:6};
-            a=o.getElementsByTagName('head')[0];
-            r=o.createElement('script');r.async=1;
-            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        </div>
+        <!--Fim contagem-->
+
+    </div>
+    <!--Fim container-->
+
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 1887726, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
             a.appendChild(r);
-        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
 </body>
-</html>
 
+</html>
