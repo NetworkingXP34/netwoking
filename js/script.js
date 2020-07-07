@@ -34,7 +34,3 @@ document.addEventListener('mouseleave', function (){
         count +=1;   
     }
 })
-
-
-
-
