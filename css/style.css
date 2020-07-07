@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); 
  
-
-
 *{
     margin: 0;
     padding: 0;
@@ -117,3 +115,33 @@ header{
     font-family: 'Poppins', sans-serif;
 }
     
+@media (max-width: 425px){
+    .fundo{
+        display: none;
+    }
+
+    .titulo h1{
+        font-size: 1.2em;
+    }
+
+    .descricao p{
+        font-size: 1em;
+    }
+
+    .formulario{
+        width: 70vw;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input{
+        width: 50vw;
+    }
+
+    .botao{
+        width: 30vw;
+    }
+    
+}
