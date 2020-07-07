@@ -49,11 +49,13 @@ header{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 5vh auto;
 }
 
 .descricao{
     text-align: justify;
+    margin-top: 20vh;
+    /* height: 20vh; */
 }
 
 .descricao p{
@@ -63,6 +65,7 @@ header{
     font-size: 1.5em;
     position: relative;
     z-index: 1000;
+    
 }
 
 .negrito{
@@ -124,6 +127,11 @@ header{
         font-size: 1.2em;
     }
 
+    .descricao{
+        /* background-color: #000; */
+        margin-top: 30vh;
+    }
+
     .descricao p{
         font-size: 1em;
     }
@@ -146,7 +154,7 @@ header{
     
 }
 
-#_form_1_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0; }
+#_form_1_ { font-size:14px; line-height:1.6; font-family:arial, helvetica, sans-serif; margin:0;}
     #_form_1_ * { outline:0; }
     ._form_hide { display:none; visibility:hidden; }
     ._form_show { display:block; visibility:visible; }
@@ -216,7 +224,7 @@ header{
     #_form_1_ button[type="submit"] { padding:20px; font-size:1.5em; }
     #_form_1_ ._inline-style { margin:20px 0 0 !important; }
     }
-    #_form_1_ { position:relative; text-align:left; margin:25px auto 0; padding:20px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; *zoom:1; background:#fff !important; border:0px solid #b0b0b0 !important; -moz-border-radius:0px !important; -webkit-border-radius:0px !important; border-radius:0px !important; color:#000 !important; }
+    #_form_1_ { position:relative; text-align:left; margin:100px auto 0; padding:20px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; *zoom:1; background:#fff !important; border:0px solid #b0b0b0 !important; -moz-border-radius:0px !important; -webkit-border-radius:0px !important; border-radius:0px !important; color:#000 !important; }
     #_form_1_ ._form-title { font-size:22px; line-height:22px; font-weight:600; margin-bottom:0; }
     #_form_1_:before,#_form_1_:after { content:" "; display:table; }
     #_form_1_:after { clear:both; }
