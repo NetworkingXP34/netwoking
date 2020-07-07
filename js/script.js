@@ -25,8 +25,16 @@ function atualizaContador() {
     }
 }
 
-function alertaSaida(){
-    console.log("Ops saiu")
-    document.getElementById("modal").addEventListener("mouseleave", alertaSaida);
-}
+var count = 0;
+var maxCount = 1;
+
+document.addEventListener('mouseleave', function (){
+    if(count < maxCount){
+        $("#exampleModal").modal('show'); 
+        count +=1;   
+    }
+})
+
+
+
 
