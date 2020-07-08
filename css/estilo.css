@@ -107,6 +107,10 @@ header p{
     border-radius: 10px;
 }
 
+.rodape{
+    background: #24374c;
+}
+
 .contador h3{
     font-size: 1.2em;
 }
@@ -129,6 +133,16 @@ header p{
 .negrito1{
     font-weight: bold;
 }
+
+.btn{
+    color: #FFFFFF;
+    font-family: 'Circe Rounded W03 Extra';
+    font-weight: bold;
+}
+
+#grad {
+    background-image: linear-gradient( #FFB199, #FF0844);
+  }
 
 @media (max-width: 425px){
 
