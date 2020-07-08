@@ -1,192 +1,282 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+@import url("https://db.onlinewebfonts.com/c/c070eca0b747d1e84f7099e112a8c7d6?family=Circe+Rounded");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    font-family: 'Poppins';
-    font-size: 14pt;
-    line-height: 1.5;
-    color:#000000; 
+body {
+  font-family: "Poppins";
+  font-size: 14pt;
+  line-height: 1.5;
+  color: #000000;
 }
 
-header{
-    margin-left: 3%;
-    padding: 2%;
-    /* background: blue; */
-    display: flex;
-    justify-content: space-between;
-    width: 80vw;
-    margin-bottom: 20vh;
+header {
+  margin-left: 3%;
+  padding: 2%;
+  /* background: blue; */
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-bottom: 20vh;
 }
 
-header h1{
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    font-weight: bolder;
-    color: white;
-    font-size: 1.8em;
+header h1 {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+  font-size: 1.8em;
 }
 
-header p{
-    width: 40vw;
-    color: white;
-    font-size: 0.9em;
+header p {
+  width: 40vw;
+  color: white;
+  font-size: 0.9em;
 }
 
-.header-direito img{
-    width: 30vw;
+.header-direito img {
+  width: 30vw;
 }
 
-.container{
-    /* margin-left: 15%;
+.container {
+  /* margin-left: 15%;
     margin-right: 15%; */
-    padding: 2%;
+  padding: 2%;
+  /* width: 100vw; */
 }
 
-.titulo{
-    padding-bottom: 2rem;
+.titulo {
+  font-weight: bold;
+  padding-bottom: 2rem;
 }
 
-.centralizar{
-    text-align: center;
+#cor1 {
+  color: #ec695b;
 }
 
-.descricao{
-    text-align: justify;
+#cor2 {
+  color: #24374c;
 }
 
-.descricao p{
-    padding: 1.5rem 1.5rem;
+.centralizar {
+  text-align: center;
 }
 
-.negrito{
-    font-weight: bold;
+.descricao {
+  text-align: left;
+  /* background-color: #05C7F2; */
 }
 
-.icone{
-    width: 20vw;
-    margin-bottom: 3vh;
+.descricao p {
+  font-family: "Poppins Regular";
+  padding: 1.5rem 1.5rem;
 }
 
-.imagem{
-    opacity: 0.3;
-    -moz-opacity: 0.3;
-    filter: alpha(opacity=30);
+.negrito {
+  font-weight: bold;
+}
+
+.icone {
+  width: 20vw;
+  margin-bottom: 3vh;
+}
+
+.imagem {
+  opacity: 0.3;
+  -moz-opacity: 0.3;
+  filter: alpha(opacity=30);
 }
 
 .displayed {
-    width: 100%;
-    height: 100%;
-    object-fit:cover ;
+  width: 25vw;
+  margin-left: 10vw;
+  /* height: 100%; */
+  object-fit: cover;
+  padding-bottom: 3rem;
 }
 
-.live{
-    background: #05C7F2;
+.live {
+  background: #05c7f2;
 }
 
-.centro {
-    margin: 0;
-    position: absolute;
+/* .centro { */
+/* margin: 0; */
+/* position: absolute;
     top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    left: 50%; */
+/* margin-right: -50%; */
+/* transform: translate(-50%, -50%); */
+/* padding-top: 8rem; */
+/* background-color: #FFB199; */
+/* } */
+
+.contador {
+  background: #12344d;
+  color: #ffffff;
+  text-align: center;
+  padding: 0.5rem;
+  width: 30vw;
+  border-radius: 10px;
 }
 
-
-.contador{
-    background: #12344D;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 0.5rem;
-    width: 30vw;
-    border-radius: 10px;
+.rodape {
+  background: #24374c;
+  bottom: 0;
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.rodape{
-    background: #24374c;
+.contador h3 {
+  font-size: 1.2em;
 }
 
-.contador h3{
-    font-size: 1.2em;
+.contador span {
+  font-weight: bold;
+  font-size: 1.2em;
 }
 
-.contador span{
-    font-weight: bold;
-    font-size: 1.2em;
+.fundo-coral {
+  position: absolute;
+  width: 98.7vw;
+  height: 110vh;
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: -100;
 }
 
-.fundo-coral{
-    position: absolute;
-    width: 98.7vw;
-    height: 110vh;
-    left: 0px;
-    top: 0px;
-    position: absolute;
-    z-index: -100;
+.negrito1 {
+  font-weight: bold;
 }
 
-.negrito1{
-    font-weight: bold;
+.second-section {
+  display: flex;
+  width: 90%;
 }
 
-.btn{
-    color: #FFFFFF;
-    font-family: 'Circe Rounded W03 Extra';
-    font-weight: bold;
+.third-section {
+  width: 100%;
+  height: 800px;
+  background: #31aee4;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-third-section {
+  color: #24374c;
+  font-weight: 800;
+  font-family: "Circe Rounded", sans-serif;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.align-items-section {
+  padding: 5%;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container-fluid-adjust {
+  padding: 0;
+}
+
+.align-guests-imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.desc-third-section {
+  display: block;
+}
+
+.guest-img {
+  width: 80%;
+  max-width: 400px;
+}
+
+.guest-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+  text-transform: uppercase;
+}
+
+.btn {
+  color: #ffffff;
+  font-family: "Circe Rounded", sans-serif;
+  font-weight: bold;
 }
 
 #grad {
-    background-image: linear-gradient( #FFB199, #FF0844);
+  background-image: linear-gradient(#ffb199, #ff0844);
+  width: 20vw;
+  height: 8vh;
+  border: none;
+  font-family: "Poppins";
+  font-weight: 100;
+  color: white;
+  font-weight: bold;
+}
+
+@media (max-width: 425px) {
+  .row {
+    width: 99vw;
   }
 
-@media (max-width: 425px){
+  .fundo-coral {
+    height: 125vh;
+    width: 100vw;
+  }
 
-    .row{
-        width: 99vw;
-    }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+  }
 
-    .fundo-coral{
-        height: 125vh;
-        width: 100vw;
-    }
+  .icone {
+    margin: 5vh auto;
+    width: 50vw;
+  }
 
-    header{
-        display:flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        /* background-color: aqua; */
-        width: 90vw;
-    }
+  .header-esquerdo {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+  }
 
-    .icone{
-        margin: 5vh auto;
-        width: 50vw;
-    }
+  header p {
+    width: 80vw;
+  }
 
-    .header-esquerdo{
-        /* background-color: brown; */
-        width: 80vw;
-        display: flex;
-        flex-direction: column;
-    }
+  .contador {
+    width: 70vw;
+    margin: 0 auto;
+  }
 
-    header p{
-        width: 80vw;
-    }
-
-    .contador{
-        width: 70vw;
-        margin: 0 auto;
-    }
-
-    .header-direito img{
-        display: none;
-    }
-
+  .header-direito img {
+    display: none;
+  }
 }
