@@ -24,7 +24,7 @@
     sobre saúde mental. Aqui nós nos importamos com temas como autocuidado, autoestima, empoderamento e sororidade.">
     <meta name="twitter:image" content="https://www.hermind.com.br/img/hermind.jpeg">
     <!--Fim Twitter Cards-->
-    <link href="//db.onlinewebfonts.com/c/c070eca0b747d1e84f7099e112a8c7d6?family=Circe+Rounded" rel="stylesheet" type="text/css"/>
+    
     <!-- Hotjar Tracking Code for http://www.hermind.com.br/ -->
 
     <!-- CSS only -->
@@ -77,13 +77,13 @@
         </div>
         <!--Fim row-->
         <div class="row">
-            <div class="col-sm">
+            <div class="col-sm-6">
                 <img class="displayed" src="./img/woman_background.png" alt="Figura de mulheres abraçando">
             </div>
             <!--Fim col-sm-->
-            <div class="col-sm">
+            <div class="col-sm-6">
                 <div class="centro">
-                    <h2 class="titulo centralizar">Sobre a Her Mind</h2>
+                    <h2 class="titulo centralizar" id="cor1">Sobre a Her Mind</h2>
                     <p class="descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Enim illo deserunt tempore, obcaecati dolore rerum nulla.
                     Modi ex omnis sunt vero, earum accusantium saepe nobis totam
@@ -152,20 +152,27 @@
     <!-- Modal -->
     <div class="modal fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="validationCustom01">Nome</label>
+                            <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <button type="button" class="btn" id="grad"><span>INSCREVA-SE AQUI</span></button>
+                    </form>
+                </div>
             </div>
-            <div class="modal-body">
-            ...
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn" id="grad"><span>INSCREVA-SE AQUI</span></button>
-            </div>
-        </div>
         </div>
     </div>
 </body>

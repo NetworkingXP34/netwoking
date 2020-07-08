@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap'); 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+@import url('https://db.onlinewebfonts.com/c/c070eca0b747d1e84f7099e112a8c7d6?family=Circe+Rounded');
 
 *{
     margin: 0;
@@ -48,7 +49,17 @@ header p{
 }
 
 .titulo{
+    font-family: 'Circe Rounded';
+    font-weight: bold;
     padding-bottom: 2rem;
+}
+
+#cor1{
+    color: #EC695B;
+}
+
+#cor2{
+   color: #24374c;
 }
 
 .centralizar{
@@ -60,6 +71,7 @@ header p{
 }
 
 .descricao p{
+    font-family: 'Poppins Regular';
     padding: 1.5rem 1.5rem;
 }
 
@@ -82,6 +94,7 @@ header p{
     width: 100%;
     height: 100%;
     object-fit:cover ;
+    padding-bottom: 3rem;
 }
 
 .live{
@@ -94,7 +107,8 @@ header p{
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-50%, -50%);
+    padding-top: 8rem;
 }
 
 
