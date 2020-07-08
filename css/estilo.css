@@ -78,6 +78,26 @@ header p{
     filter: alpha(opacity=30);
 }
 
+.displayed {
+    width: 100%;
+    height: 100%;
+    object-fit:cover ;
+}
+
+.live{
+    background: #05C7F2;
+}
+
+.centro {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+
 .contador{
     background: #12344D;
     color: #FFFFFF;
