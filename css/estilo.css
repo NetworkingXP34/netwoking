@@ -38,6 +38,10 @@ header p {
   font-size: 0.9em;
 }
 
+.row{
+    width: 99vw;
+}
+
 .header-direito img {
   width: 30vw;
 }
@@ -45,13 +49,14 @@ header p {
 .container {
   /* margin-left: 15%;
     margin-right: 15%; */
-  padding: 2%;
+  /* padding: 2%; */
   /* width: 100vw; */
 }
 
 .titulo {
   font-weight: bold;
   padding-bottom: 2rem;
+  width: 35vw;
 }
 
 #cor1 {
@@ -69,6 +74,7 @@ header p {
 .descricao {
   text-align: left;
   /* background-color: #05C7F2; */
+  width: 40vw;
 }
 
 .descricao p {
@@ -103,16 +109,16 @@ header p {
   background: #05c7f2;
 }
 
-/* .centro { */
-/* margin: 0; */
-/* position: absolute;
+ .centro { 
+    margin-top: 5vh; 
+    /* position: absolute;
     top: 50%;
-    left: 50%; */
-/* margin-right: -50%; */
-/* transform: translate(-50%, -50%); */
-/* padding-top: 8rem; */
-/* background-color: #FFB199; */
-/* } */
+    left: 50%; 
+    margin-right: -50%; 
+    transform: translate(-50%, -50%); 
+    padding-top: 8rem;  */
+    /* background-color: #FFB199;  */
+}
 
 .contador {
   background: #12344d;
@@ -197,8 +203,8 @@ header p {
 
 .align-guests-imgs {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: initial;
+  justify-content: space-around;
 }
 
 .desc-third-section {
@@ -213,12 +219,19 @@ header p {
 .guest-block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  width: 20vw;
+}
+
+.guest-block p{
+    font-size: 0.8em;
+    text-align: center;
+    width: 15vw;
 }
 
 span {
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .btn {
@@ -244,7 +257,7 @@ span {
   }
 
   .fundo-coral {
-    height: 125vh;
+    height: 150vh;
     width: 100vw;
   }
 
@@ -279,4 +292,50 @@ span {
   .header-direito img {
     display: none;
   }
+
+
+  .titulo{
+      width: 80vw;
+  }
+
+  .descricao{
+    width: 80vw;
+  }
+
+  .displayed{
+      display: none;
+  }
+  .col-sm-6{
+      /* background-color: #ec695b; */
+      margin-left: 5vw;
+      margin-bottom: 5vh;
+  }
+
+  .third-section {
+    height: auto;
+  }
+
+  .align-guests-imgs{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 10vh;
+  }
+
+  .pode-tirar{
+      display: none;
+  }
+
+  .guest-block p{
+      width: 60vw;
+  }
+
+  .guest-block img{
+      width: 60vw;
+  }
+
+  #grad{
+      width: 60vw;
+  }
+
 }
