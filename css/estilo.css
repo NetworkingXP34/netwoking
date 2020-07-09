@@ -251,6 +251,20 @@ span {
   font-weight: bold;
 }
 
+@media(max-width: 768px){
+    .fundo-coral{
+        height: 160vh;
+    }
+
+    .third-section{
+        height: auto;
+    }
+
+    .pode-tirar{
+        display: none;
+    }
+}
+
 @media (max-width: 425px) {
   .row {
     width: 99vw;
